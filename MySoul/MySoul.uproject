@@ -3,6 +3,17 @@
 	"EngineAssociation": "{3F28C24E-424C-27CF-A3DA-FAB45C1A8149}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "MySoul",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -10,6 +21,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
 		}
 	]
 }
